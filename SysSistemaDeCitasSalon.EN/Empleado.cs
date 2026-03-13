@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace SysSistemaDeCitasSalon.EN
 {
-    public class Empleado
+    public class Empleado : Persona
     {
+        public int IdEmpleado { get; set; }
+        public int IdEstado { get; set; }
     }
 }
